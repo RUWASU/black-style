@@ -1,0 +1,1323 @@
+/* AUTO=page_border */ .l-page { -webkit-box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.85);
+-moz-box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.85);
+box-shadow: 0px 0px 6px 8px rgba(0, 0, 0, 0.85);
+}
+body {
+    background: rgb(33, 33, 31) !important;
+}
+.c-brief{
+  margin-top: 100px;
+ 
+}
+.profile-content{
+  margin-top: 96px;
+}
+
+.l-top_menu-v2 {
+  max-width: 1200px;
+  margin: auto;
+}
+.x1000 .l-top_menu-v2 {
+  max-width: 1000px;
+}
+.b-comments-notifier {
+  top: 0px !important;
+}
+.p-profiles .profile-head .c-history .entry .misc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #7b8084!important;
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+}
+/* Шапка профиля */
+.l-top_menu-v2 {
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 30px;
+  background: #000000;  
+}
+.l-top_menu-v2 {
+background: #000000;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+background: #000000;
+}.l-top_menu-v2 .submenu {
+background: #000000;
+border-bottom: 1px solid #000000;
+border-left: 1px solid #000000;
+border-right: 1px solid #000000;
+}
+.menu-dropdown.profile {
+  background-color: #000000;
+}
+.x1000 .l-top_menu-v2 {
+  max-width: 2000px;
+}
+.b-comments-notifier {
+  top: 0px !important;
+}
+.p-profiles-show .lifetime .title {
+    line-height: 2;
+    width: 100%;
+    margin-top: 6px;
+}
+.l-top_menu-v2 .menu-icon.active,
+.l-top_menu-v2 .menu-icon:focus, 
+.l-top_menu-v2 .menu-dropdown.active>span,
+.l-top_menu-v2 .menu-dropdown>span:focus {
+    background-color: #000000;
+}
+.l-top_menu-v2 .menu-dropdown>span a:active {
+    background-color: #000000;
+}
+@media screen and (min-width: 1024px) {
+.l-top_menu-v2 .menu-dropdown>span a:hover {
+    background-color: #000000;
+  }
+}
+/*Обложка*/
+.p-profiles-show .profile-head:before {
+  content: '';
+  display: block;
+  height: 300px; /* высота обложки */ 
+  background: url("https://i.imgur.com/2XjdPfp.png") no-repeat; /* кавычки должны быть */
+  background-position-y: -2rem;
+  background-size: cover; 
+  filter: grayscale(5%) sepia(14%);
+  margin: -15px;
+  margin-bottom: 5px; /* отступ от нижней границы обложки */
+  -webkit-box-shadow: 0px 0px 7px 8px rgba(0, 0, 0, 0.85);
+-moz-box-shadow: 0px 0px 7px 8px rgba(0, 0, 0, 0.85);
+box-shadow: 0px 0px 7px 8px rgba(0, 0, 0, 0.85);
+}
+
+ 
+/* Логотип сайта (убран) */
+.l-top_menu-v2 .logo-container .glyph {
+  display: none;  
+}
+.l-page {
+  margin-bottom: 50px;
+}
+/* Полностью убираем иконку */
+.l-top_menu-v2 .logo-container .glyph {
+  display: none;
+}
+}
+/* Блоки в профиле */
+@media only screen and (min-width: 768px) {
+  .p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-left {
+    position: relative;
+    width: 77%;
+    padding-right: 30px;
+    margin-right: 0;
+    z-index: 1;
+  }
+  .p-profiles-show .lifetime {
+    margin-bottom: 15px;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right {
+    float: none;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+    width: 23%;
+    overflow: hidden;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+    width: 100%;
+    margin: 0;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column:last-child {
+    margin-top: 15px;
+  }
+  .p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
+    clear: both;
+  }
+}
+
+/*Растояние шапкой и основой*/
+.l-top_menu, .b-feedback {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.b-feedback {display: none}
+.b-comments-notifier {top: 0px !important;}
+
+.l-page {
+background-color: rgba(255, 255, 255, 0);
+margin-top: 10px;
+padding: 15px 15px 0 15px !important;
+}
+.b-code {
+    background: #363636;
+}
+
+/* Расположение  */
+.p-profiles .profile-head .c-brief .avatar {
+    margin: 10px 30px 30px 0;
+}
+.p-profiles .profile-head .c-brief .avatar {
+    float: left;
+    max-width: 160px;
+}
+.p-profiles-show .c-brief .avatar {
+    margin-left: 41% !important;
+    margin-bottom: 75px !important;
+}
+.p-profiles-show .c-brief > .head.misc {
+    position: relative;
+    left: -190px;
+    top: 195px;
+    width: 170px;
+    text-align: center;
+}
+.p-profiles-show .c-info {
+    margin-left: 0;
+    width: 100%;
+}
+.block {
+    margin-bottom: 10px;
+}
+.c-column.c-right.c-right.c-right {
+    width: 100%;
+}
+.p-profiles-show .c-history {
+    position: absolute !important;
+    width: 97% !important;
+    margin-top: -22px !important;
+    top: 680px;
+    left: -16px;
+    text-align: center;
+}
+.p-profiles-show .c-history .entry {
+    display: inline-block;
+    width: 33%;
+    border: none !important;
+}
+.p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.p-profiles-show .profile-content .activity {
+    margin-bottom: 30px;
+    line-height: 1.65;
+    position: relative;
+    margin-top: 150px;
+}
+.p-profiles-show .profile-content .activity:last-child {
+    margin-bottom: 20px;
+}
+.x1200 .l-page {
+    max-width: 1000px;
+}
+.b-stats_bar .stat_names {
+    text-align: center;
+}
+.b-stats_bar .stat_names {
+    text-align: center;
+}
+.b-stats_bar {
+	
+	padding: 20px 1px;
+	width: calc(50%);
+	display: inline-block;
+	vertical-align: top;
+}
+.c-lists-info{
+	 position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.lifetime{
+  display: inline;
+}
+.p-profiles-show .profile-content .activity {
+    margin-bottom: 30px;
+    line-height: 1.65;
+    position: relative;
+    margin-top: -15px; 
+}
+
+/* рамки для аниме и манги*/
+.b-stats_bar a.title {
+    background: rgba(0, 0, 0, 0)!important;
+    box-shadow: 0px 0px 0px rgb(0 0 0), inset 0 0 2px 1px #000;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-style: initial;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;   
+    font-size: 12px;
+    padding: 6px 10px 4px 8px;
+    line-height: 12px;
+}
+.subheadline {
+    font-size: 14px;
+    padding: 6px 10px 4px 8px;
+    line-height: 14px;
+}
+
+/*Растояние шапкой и основой*/
+.l-top_menu, .b-feedback {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.b-feedback {display: none}
+.b-comments-notifier {top: 0px !important;}
+
+.l-page {
+background-color: #FFFFFF;
+margin-top: 10px;
+padding: 15px 15px 0 15px !important;
+}
+.b-code {
+    background: #363636;
+}
+
+.avatar img{
+-webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.85);
+-moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.85);
+box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.85);
+}
+
+.c-brief{
+  margin-top: -100px;
+}
+
+/* Окрас профиля, подравнения*/
+header.head h1, header.head h2 {
+font: 23px Segoe UI Medium, verdana, arial, sans-serif; color: black;
+}
+
+.to-top-fix, .l-top_menu {
+background: #f14b45;
+}
+
+.l-top_menu {
+border-bottom: 2px solid black;
+position: fixed;
+z-index: 10;
+width: 100%;
+}
+
+.to-top-fix {
+border-bottom: 2px solid black;
+}
+.b-feedback {
+visibility: hidden;
+}
+
+/*Линии*/
+.headline, .midheadline, .subheadline {
+background: rgba(0, 0, 0, 0);
+border-left: 3px solid black;
+border-radius: 0px;
+background-color: black;
+}
+
+.subheadline {
+font-size: 12px;
+padding: 6px 10px 4px 8px;
+line-height: 12px; color: white;
+}
+.b-stats_bar.anime .bar .first {
+background: black;
+border-radius: 2px;
+}
+
+.b-stats_bar.manga .bar .first {
+background: black;
+border-radius: 2px;
+}
+
+.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+color: #DCDCDC;
+}
+
+.b-stats_bar.anime .bar .second {
+background:#DCDCDC; 
+}
+
+.b-stats_bar.manga .bar .second {
+background: #DCDCDC;
+}und: #DCDCDC;
+}
+.bar.vertical .line .bar-container .bar {
+bottom: 0;
+position: absolute;
+width: 75%;
+}
+/*Активность на сайте*/
+.bar.simple .bar:hover.s0 {
+background: black;
+border-radius: 1px;
+}
+
+.bar.simple .bar.s0 {
+background: black;
+border-radius: 1px;
+}
+
+.bar.simple .bar:hover.s1 {
+background: black;
+border-radius: 1px;
+}
+
+.bar.simple .bar.s1 {
+background: black;
+border-radius: 1px;
+}
+
+.bar.simple .bar:hover.s2 {
+background: black;
+border-radius: 1px;
+}
+
+.bar.simple .bar.s2 {
+background: black;
+border-radius: 1px;
+}
+
+.bar.simple .bar:hover.s3 {
+background: black;
+border-radius: 1px;
+}
+
+.bar.simple .bar.s3 {
+background: black;
+border-radius: 1px;
+}
+
+.b-stats_bar .bar .third {
+background: white;
+}
+/*Затемнее истории и др.*/
+.p-profiles .profile-head .c-history .entry img {
+float: left;
+margin: 2px 10px 5px 2px;
+max-height: 52px;
+max-width: 37px;
+filter: grayscale(55%); 
+}
+.b-catalog_entry .cover .image-decor img {
+    width: 100%;
+    filter: grayscale(55%);
+}
+.b-club .logo {
+    float: left;
+    line-height: 0;
+    margin-right: 10px;
+    max-width: 100%;
+    width: 48px;
+    filter: grayscale(55%);
+}
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    display: block;
+    line-height: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    filter: grayscale(55%);
+}
+.b-image.b-poster img {
+    max-width: 100%;
+}
+img {
+    filter: grayscale(60%) sepia(13%);
+}
+.p-profiles .profile-head .c-history .entry img,
+.b-user.avatar img,
+.b-club .logo,
+.b-catalog_entry .cover .image-decor img,
+.b-achievement .c-image .inner a img,
+.b-badge img {
+  filter: grayscale(60%) sepia(13%);
+  transition: filter .4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.p-profiles .profile-head .c-history .entry img:hover,
+.b-user.avatar img:hover,
+.b-club .logo:hover,
+.b-catalog_entry .cover .image-decor img:hover,
+.b-achievement .c-image .inner a img:hover,
+.b-badge img:hover {
+  filter: grayscale(0%) sepia(0%);
+}
+/*добавление к затемнению*/
+.b-catalog_entry .cover .image-decor .image-cutter {
+    display: block;
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+}
+.b-catalog_entry .cover .image-decor {
+    display: block;
+    filter: grayscale(55%) sepia(13%);
+    opacity: 0.9 !important;
+    border: 1px solid #000 !important;
+    border-radius: 0.9px !important;
+    line-height: 0px;
+    position: relative;
+}
+/*Расположение ярлыков*/
+.b-clubs.one-line .b-club {
+    float: left;
+    margin-right: 2%;
+    position: relative;
+    width: 9%;
+}
+.graph.vertical .line .bar-container .bar {
+width: 20px;
+border-radius: 0;
+}
+.line:nth-child(odd) > .bar-container > .bar, .line:nth-child(odd) > .bar-container > .bar:hover, .line:nth-child(even) > .bar-container > .bar, .line:nth-child(even) > .bar-container > .bar:hover, .graph.vertical:not(:hover) .line:last-child .bar-container .bar, .graph.vertical:hover .line:last-child .bar-container .bar {
+    background: linear-gradient(
+0deg, #000, #8c8c8c);
+}
+/*Время за аниме*/
+.b-stats_bar.lifetime .bar .first {
+    background: #333;
+}
+.p-profiles-show .lifetime .times .time.checked:before {
+    font-family: shikimori;
+    content: "✓";
+    color: #333;
+    font-size: 11px;
+    margin-right: 4px;
+}
+/*Центрование в заголовках*/
+.subheadline.m5 {
+    text-align: left!important;
+}
+.subheadline {
+    text-align: center;
+}
+.b-options-floated + .subheadline {
+  text-align: left;
+}
+/*Цвет шрифта*/
+.headline>a, .midheadline>a, .subheadline>a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.b-stats_bar a.title {
+    color: #000;
+    cursor: pointer;
+}
+.p-profiles-show .lifetime .times .time {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+    width: 20%;
+}
+.b-stats_bar .title {
+    color: #000;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 18px;
+}
+.p-profiles .profile-head .c-info .c-additionals div a {
+    color: var black;
+    cursor: pointer;
+}
+.p-profiles-show .achievements .header .title {
+    color: #000;
+    font-weight: 700;
+}
+.subheadline {
+    font-size: 15.5px;
+    padding: 6px 10px 4px 8px;
+    line-height: 14px;
+}
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a {
+    color: #333;
+    cursor: pointer;
+}
+.p-profiles .profile-head .c-info .c-additionals div a {
+    color: #333;
+    cursor: pointer;
+}
+.b-link {
+    color: #333;
+    cursor: pointer;
+}
+.b-options-floated.mobile-desktop a {
+    color: #333;
+}
+.b-options-floated.mobile-desktop a.selected {
+    color: #333;
+}
+header.head a.misc, header.head a.edit {
+    color: #333;
+    cursor: pointer;
+}
+.b-options-floated a, .b-options-floated .link {
+    color: #f9f9f9;
+    cursor: pointer;
+    cursor: pointer;
+    display: inline;
+    white-space: nowrap;
+}
+.b-options-floated .selected {
+    color: #ddd;
+}
+html[data-color-mode=light] {
+    --link-color: black;
+    --link-hover-color: #999;
+    --link-active-color: #999;
+    --link-border-color: rgba(#176093, 0.3);
+    --link-border-hover-color: rgba(#dd5202, 0.3);
+    --link-border-active-color: rgba(#ff0202, 0.3);
+    --headline-color: #999;
+    --headline-background-color: #e8ebef;
+    --headline-border-color: #d8dde4;
+    --headline-arrow-color: $gray-2;
+}
+.p-profiles-show .profile-content .activity .title {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.p-user_rates-index .list-lines tr td .rewatches {
+    color: #2477b1;
+}
+.b-form input[type=submit] {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #21211f;
+    border: 0;
+}
+.b-club .info .value {
+    color: #0c0c0c;
+}
+.b-input .hint {
+    color: #f77575;
+    display: block;
+    font-size: 11px;
+    line-height: 1.65;
+}
+/*Главная страница*/
+.orange {
+    color: #f9f9f9;
+    background: black;
+    border-left: 5px
+ solid black;
+}
+.skyblue {
+    color: white;
+    background: black;
+    border-left: 0px
+ solid white;
+}
+.p-dashboards-show .v2 .headline.magenta a {
+    color: #f9f9f9;
+}
+.headline .misc-links>a, .midheadline .misc-links>a, .subheadline .misc-links>a {
+    color: #f9f9f9;
+    cursor: pointer;
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 0;
+    text-transform: none;
+}
+.b-add_to_list.rewatching .trigger, .b-add_to_list.rewatching .option {
+    background: #f2f4f5;
+    border-color: #000000;
+    color: var(--link-color);
+}
+
+/*Шрифт профиля*/
+:root {
+    --font-size-base-desktop: 13px;
+    --font-size-base-mobile: 13px;
+    --font-main: Helvetica Neue, Arial, Verdana, sans-serif;
+    --font-alt: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    --font-code: Monaco, Menlo, Consolas, Ubuntu Mono, Courier New, monospace;
+    --font-alt-hadline-letter-spacing: 0.18px;
+    --font-alt-text-letter-spacing: -0.13px;
+    --top-menu-height: 46px;
+}
+:root {
+    --font-main: 'Courier New';
+    --font-alt: 'Courier New';
+    --font-alt-text-letter-spacing: normal;
+}
+.p-user_rates-index .list-lines tr td .ongoing {
+    color: #ff0914;
+}
+.
+/*Аниме страница*/
+.subheadline {
+    font-size: 12px;
+    padding: 6px 10px 4px 8px;
+    line-height: 16px;
+    color: white;
+}
+element.style {
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.b-add_to_list .trigger .text, .b-add_to_list .option .text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+}
+.b-add_to_list.completed .trigger, .b-add_to_list.completed .option {
+    background: #f9f9f9;
+    border-color: #f9f9f9;
+    color: #333;
+}
+.b-add_to_list.completed .edit {
+    cursor: pointer;
+    color: #333;
+}
+.b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+    background: white;
+    border-color: white;
+    color: black;
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    background: #f9f9f9;
+    border-color: #f9f9f9;
+    color: var(--link-color);
+}
+.p-profiles-edit .b-options-floated {
+  margin-top: 2px;
+}
+.red {
+    color: white;
+    background: black;
+    border-left: 5px
+ solid white;
+}
+.blue {
+    color: white;
+    background: black;
+    border-left: 5px
+ solid black;
+}
+.green {
+    color: white;
+    background: black;
+    border-left: 5px
+ solid black;
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link.anime-tag {
+    color: #21211f;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    -webkit-transition: color .25s ease,background-color .25s ease,border-color .25s ease;
+    transition: color .25s ease,background-color .25s ease,border-color .25s ease;
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link.manga-tag {
+    color: #21211f;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    -webkit-transition: color .25s ease,background-color .25s ease,border-color .25s ease;
+    transition: color .25s ease,background-color .25s ease,border-color .25s ease;
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link.ranobe-tag {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    -webkit-transition: color .25s ease,background-color .25s ease,border-color .25s ease;
+    transition: color .25s ease,background-color .25s ease,border-color .25s ease;
+}
+.b-link_button.dark {
+    background-color: #ffffff;
+    border-color: #000000;
+    color: #000;
+}
+.b-anime_status_tag.released {
+    background-color: #ff4136;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-user_rate-history .progress .completed {
+    background: #ed635b;
+    height: 5px;
+}
+.b-tag[href] {
+    border-bottom-color: #000000;
+    cursor: pointer;
+}
+/*Цвет онгоинг, анонс, смотрю и запланированое эпизод в оповещении*/
+.b-anime_status_tag.ongoing {
+    background-color: #f9f9f9;
+    border: 1px solid #000000;
+    color: #037f93;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.anons {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #f00;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.episode, .b-anime_status_tag.studio {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-add_to_list.planned .trigger, .b-add_to_list.planned .option {
+    background: #ffffff;
+    border-color: #000000;
+    color: black;
+}
+.b-add_to_list.watching .trigger, .b-add_to_list.watching .option {
+    background: white;
+    border-color: black;
+    color: black;
+}
+.b-achievements_notifier .achievement.gained {
+    background: white;
+    border-color: black;
+    color: black;
+}
+.p-dashboards-show .v2 .my-list {
+    background: #ffffff;
+    border: 1px solid #333;
+    padding: 5px 10px 8px;
+}
+.b-user_rate-history .score-time .stars-container .score {
+    color: #333;
+    position: absolute;
+}
+.b-anime_status_tag.other {
+    background-color: #fff;
+    border: 1px solid #000000;
+    color: #000;
+    cursor: default;
+    display: inline-block;
+    font-family: var(--font-alt);
+    font-size: 12px;
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 1.4;
+    padding: 0 5px;
+    text-align: center;
+}
+.b-anime_status_tag.news {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000;
+    cursor: default;
+}
+.b-anime_status_tag.critique {
+    background-color: #ff0000;
+    border: 1px solid #000000;
+    color: #fff;
+    cursor: default;
+}
+.b-anime_status_tag.collection {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #fff;
+    cursor: default;
+}
+.b-anime_status_tag.article {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #fff;
+    cursor: default;
+}
+.b-anime_status_tag.contest {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #fff;
+    cursor: default;
+}
+.b-anime_status_tag.released {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    cursor: default;
+}
+.yellow {
+    color: #f9f9f9;
+    background: #000;
+    border-left: 5px solid #000000;
+}
+.purple {
+    color: #ffffff;
+    background: #000000;
+    border-left: 5px solid #000000;
+}
+.powderblue {
+    color: #ffffff;
+    background: #000000;
+    border-left: 5px solid #000000;
+}
+.b-anime_status_tag.collection {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #000;
+    cursor: default;
+}
+.b-anime_status_tag.critique {
+    background-color: #ff0000;
+    border: 1px solid #ffffff;
+    color: #fff;
+    cursor: default;
+}
+.b-anime_status_tag.is_written_before_release, .b-anime_status_tag.opened-collection {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #2e7699;
+}
+.pink {
+    color: #ff5454;
+    background: #000000;
+    border-left: 5px solid #000000;
+}
+@med
+/*Напрямую, хронология и т.п.*/
+.b-options-floated {
+  margin-top: 10px;
+}
+.p-profiles-edit .b-options-floated {
+  margin-top: 7px;
+}
+.p-profiles-edit .b-options-floated {
+    font-size: 11px;
+    line-height: 10px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+.b-options-floated {
+    font-size: 11px;
+    line-height: 5px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+.b-anime_status_tag.contest {
+    background-color: #ffffff;
+    border: 1px solid #000;
+    color: #000;
+    cursor: default;
+}
+.brown {
+    color: #f9f9f9;
+    background: #000000;
+    border-left: 5px solid #000000;
+}
+.magenta {
+    color: #f9f9f9;
+    background: #000000;
+    border-left: 5px solid #000000;
+}
+.pink {
+    color: #f9f9f9;
+    background: #000000;
+    border-left: 5px solid #000000;
+}
+/*Цвет рейтинга*/
+/* Звёзды рейтинга (фоновые) */
+.b-rate .stars.background {
+  color: #C0C0C0;
+}
+.gray {
+    color: #ff4136;
+    background: #000000;
+    border-left: 5px solid #000000;
+}
+/* Звёзды рейтинга (активные) */
+.b-rate .stars.score {
+  color: #000000;
+}
+
+/* Звёзды рейтинга (при наведении) */
+.b-rate .stars.hover {
+  color: #000000;
+}
+/* Фиксированные размеры постеров */
+@import url(https://css-club.web.app/css/fixed_cover.min.css);
+
+/*Изменение цвета галочки в круге просмотренного*/ 
+.b-catalog_entry.completed .image-decor:before {
+    background: #fff;
+}
+.b-catalog_entry.planned .image-decor::before, .b-catalog_entry.watching .image-decor::before, .b-catalog_entry.completed .image-decor::before, .b-catalog_entry.rewatching .image-decor::before, .b-catalog_entry.on_hold .image-decor::before, .b-catalog_entry.dropped .image-decor::before {
+    border: 2px solid #333;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    content: '';
+    z-index: 1;
+}
+.b-catalog_entry.completed .image-decor:after {
+    color: #000;
+    content: "";
+}
+/*Сдвиг иконок*/
+.p-profiles-show .cc-friends .b-user {
+  width: auto;
+  margin-right: 5px !important;
+  clear: none !important;
+}
+.p-profiles-show .cc-friends,
+.p-profiles-show .b-clubs {
+  padding: 0 0 0 1px;
+}
+.b-club .logo {
+    float: left;
+    line-height: 0;
+    margin-right: 9px;
+    max-width: 100%;
+    width: 31px;
+    filter: grayscale(55%);
+}
+.b-clubs.one-line .b-club {
+    float: left;
+    margin-right: 0%;
+    position: relative;
+    width: 9%;
+}
+/*новое, уведомления*/
+body[data-locale=ru] .b-new_marker:before {
+    background-color: #ffffff;
+    border: 1px
+ solid #000000;
+    color: #000;
+    content: attr(data-text);
+    font-size: 11px;
+    font-family: var(--font-alt);
+    letter-spacing: var(--font-alt-text-letter-spacing);
+    line-height: 14px;
+    position: absolute;
+    text-align: center;
+    width: 38px;
+}
+.b-comments-notifier {
+    background: #000000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Кнопки предпросмотр и т.д.*/
+.b-button {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #313a42e6;
+    border: 0;
+    clear: right;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.b-form input[type=submit] {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #21211f;
+    border: 0;
+}
+.b-spoiler_block>span {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0 10px;
+    background-color: #999;
+    border: 0;
+    clear: right;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.html[data-color-mode=light] {
+    --link-hover-color: #ffffff;
+}
+
+/*линии вокруг истории*/
+.c-history .b-block_list > .entry {
+    box-shadow: 0px 0px 0px rgb(0 0 0), inset 0 0 1px 1px #000;
+    padding: 4px 0 0 4px;
+    margin-top: 1px;
+}
+.p-profiles .profile-head .c-history .entry {
+  border: 1px solid #000;
+}
+.p-profiles .profile-head .c-history .entry:first-child {
+  padding-top: 7px;
+}
+/*Фикс "время за аниме и мангой"*/
+.p-profiles-show .lifetime .title {
+    line-height: 1.65;
+    width: 100%;
+}
+.b-stats_bar .title {
+    color: black;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 18px;
+}
+/*размер шапки профиля*/
+.l-top_menu-v2 .submenu>a {
+    font-size: 13px;
+    height: 27px;
+    line-height: 27px;
+}
+.l-top_menu-v2 {
+   height: 35px;
+  line-height: 33px;
+}
+.l-top_menu-v2 .menu-dropdown>span {
+   height: 35px;
+  line-height: 33px;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    align-items: center;
+    letter-spacing: 0.25px;
+    outline: none;
+    user-select: none;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    padding: 0 15px;
+}
+.l-top_menu-v2 .menu-icon, .l-top_menu-v2 .menu-dropdown > span {
+    color: inherit;
+    display: flex;
+    height: 25px;
+}
+/*ник (убран онлайн)*/
+.p-profiles-show .profile-head[data-user-id="257324"] .c-brief .head .misc {
+    visibility: hidden;
+}
+.p-profiles-show .profile-head[data-user-id="257324"] .c-brief .head h1 {
+    width: 100%;
+}
+
+/* Отображение дат в истории */
+@import url(https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/HistoryDates.css);
+
+/*список в таблице*/
+.p-user_rates-index .list-lines tr td {
+    padding: 1px 4px;
+    border: 1px solid;
+}
+.p-user_rates-index .list-lines tr td {
+    vertical-align: top;
+}
+.p-user_rates-index .list-lines tr .index {
+    color: rgb(0 0 0);
+}
+/*поправки*/
+.midheadline .b-user16 img, .subheadline .b-user16 img {
+    margin-top: -2px;
+}
+.subheadline-input {
+    margin-right: 0px;
+    margin-top: 0px;
+    line-height: 22px;
+}
+.l-top_menu-v2 {
+    background: #000000;
+    color: #fff;
+    height: 30px;
+    position: relative;
+    z-index: 10;
+}
+.l-page {
+    overflow: hidden;
+}
+.b-achievement .c-image .inner a .border {
+    border: none;
+}
+.p-user_rates-index .list-lines tr.edit-form form {
+    background: #e5e5e5;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 7px;
+    display: block;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 5px 25px 10px 35px;
+    -webkit-transition: height 0.25s ease;
+    transition: height 0.25s ease;
+}
+/*скрол*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 11px black;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px black;
+    background: white!important;
+    border-radius: 1px;
+}
+
+/*центровка избраного*/
+.cc-favourites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Замена стандартных постеров */
+@import url(https://css-club.web.app/css/custom_posters.min.css);
+
+/* Аниме 1 — Город, в котором меня нет */
+[href*="animes/z31043-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/ESpCKZ1.png);
+}
+/* Аниме 2 — Эхо террора */
+[href*="animes/23283-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/MOWctXF.png);
+}
+/* Аниме 3 — Ковбой Бибоп */
+[href*="animes/1-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/sbGQ6st.png);
+}
+/* Аниме 4 — Мастер муси */
+[href*="animes/457-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/5ky0eqj.png); 
+}
+/* Аниме 5 — АККА: Инспекция по 13 округам */
+[href*="animes/33337-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/ubnbAjD.png); 
+}
+/* Аниме 6 — Парад смерти */
+[href*="animes/28223-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/o7MHDSc.png);
+}  
+/* Аниме 7 — Тетрадь дружбы Нацумэ */
+[href*="animes/4081-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/k2yecyJ.png);
+}  
+
+
+
+/* Персонаж 1 — Синдзи Хирако */
+[href*="characters/1084-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/paYveWD.png);
+}
+/* Персонаж 2 — Хэй */
+[href*="characters/2160-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/42LwNJg.png);
+}
+/* Персонаж 3 — Киётака Аянокоджи */
+[href*="characters/128909-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/RKcX7PB.png);
+}
+/* Персонаж 4 — Марин Китагава */
+[href*="characters/166439-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/l16IvwB.png);
+}
+/* Персонаж 5 — Ёцуги Ононоки */
+[href*="characters/57499-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/HaRd0Ut.png);
+}
+/* Персонаж 6 — Селти Стурлусон*/
+[href*="characters/28331-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/knweowa.png);
+}
+/* Персонаж 7 — Хисока Мороу*/
+[href*="characters/31-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/TmfJ6Nh.jpg);
+}
+/* Персонаж 8 — Гинко */
+[href*="characters/425-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/U2Hh5fa.png);
+}
+/* Персонаж 9 — Сики Рёги */
+[href*="characters/3105-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/sYB92Cn.png);
+}
+/* Персонаж 10 — Канна Камуи */
+[href*="characters/136728-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/IUTNlbC.png);
+}
+/* Персонаж 11 — Джин Отус */
+[href*="characters/143758-"] {
+  --show-default: 0;
+  --custom-image: url(https://i.imgur.com/SHnv40m.png);
+}
+
